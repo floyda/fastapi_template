@@ -1,0 +1,34 @@
+{
+    "python.autoComplete.extraPaths": [
+        "./src/"
+    ],
+    "python.linting.pylintArgs": [
+        "--errors-only"
+    ],
+    "editor.formatOnSave": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Path": "/usr/local/bin/autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=120"
+    ],
+    "python.sortImports.path": "/usr/local/bin/isort",
+    "python.sortImports.args": [
+        "-l",
+        "120",
+        "-p",
+        "apigateway",
+        "-p",
+        "apigateway_core",
+        "-p",
+        "apigateway_platform"
+    ],
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    }
+}
