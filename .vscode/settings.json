@@ -25,5 +25,8 @@
             "source.organizeImports": true
         }
     },
-    "python.testing.cwd": "./"
+    "python.testing.cwd": "./",
+    "python.testing.pytestArgs": [
+        "--no-cov"
+    ]
 }
