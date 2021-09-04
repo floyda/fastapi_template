@@ -5,12 +5,12 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: apigateway",
+            "name": "Python: fastapi",
             "type": "python",
             "request": "launch",
             "module": "uvicorn",
             "args": [
-                "src.apigateway.app:api"
+                "src.app:api"
             ],
             "jinja": true,
             "justMyCode": false

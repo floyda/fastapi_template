@@ -18,17 +18,12 @@
     "python.sortImports.path": "/usr/local/bin/isort",
     "python.sortImports.args": [
         "-l",
-        "120",
-        "-p",
-        "apigateway",
-        "-p",
-        "apigateway_core",
-        "-p",
-        "apigateway_platform"
+        "120"
     ],
     "[python]": {
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         }
-    }
+    },
+    "python.testing.cwd": "./"
 }
